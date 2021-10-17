@@ -1,4 +1,4 @@
-rm -rf body2.html 
+rm -rf body.html 
 python3 genBody.py
-cat body1.html body2.html body3.html > ../index.html
+cat head.html body.html tail.html > ../index.html
 

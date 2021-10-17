@@ -9,7 +9,7 @@ str6='</span><span style="font-size:12px;">&nbsp;&nbsp;&nbsp;(as of '
 str7=')</span> </p>   <ul class="list-inline">    <li class="mr-none" title="" data-toggle="tooltip" data-original-title="Source"> <a rel="nofollow noopener" href="www.amazon.com" target="_blank">  <i class="fa fa-code"></i> <span style="font-size:10px;">From Amazon.com</span> </a> </li>  </ul>  </td>  <td width="10"></td> </tr> </tbody>  </table> </div>'
 
 text=''
-with open("amz.csv", "r") as infile, open("body2.html", "w") as outfile:
+with open("amz.csv", "r") as infile, open("body.html", "w") as outfile:
     # pass the file object to reader() to get the reader object
     csv_reader = reader(infile)
     next(csv_reader, None)  # skip the headers
