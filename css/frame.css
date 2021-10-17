@@ -123,7 +123,7 @@ body
 	background: #44324e;
 	text-align: center;
 
-	border-top: solid #ffa235;
+	border-top: solid #005c99;
 	border-top-width: 2px;
 
 	box-shadow: 1px 2px 8px rgba(0,0,0,0.3);
@@ -206,7 +206,7 @@ body
 	width: 950px;
 
 	font-family: Arial, sans-serif;
-	background: #333e4f;
+	background: #ff8800;
 	text-align: center;
 
 	border-top-left-radius:2px;
@@ -259,7 +259,7 @@ body
 	color: white;
 	font-weight: bold;
 	font-size: 15px;
-	background: #ffa235;
+	background: #005c99;
 	text-align: center;
 	border-top-left-radius:0px;
 	border-top-right-radius:0px;
@@ -316,7 +316,7 @@ body
 
 .card_black_navigation a:hover
 {
-	text-decoration: none; color: #ffa235;
+	text-decoration: none; color: #005c99;
 }
 
 .card_black_navigation a
@@ -425,7 +425,7 @@ body
 	color: #ffffff;
 	font-size: 12px;
 	line-height: 18px;
-	background: #333e4f;
+	background: #ff8800;
 	text-align: center;
 	border-radius: 2px;
 	box-shadow: 1px 2px 8px rgba(0,0,0,0.3);
@@ -438,7 +438,7 @@ body
 
 .card_blue_footer a:hover
 {
-	text-decoration: none; color: #ffa235;
+	text-decoration: none; color: #005c99;
 }
 
 .card_blue_footer a
