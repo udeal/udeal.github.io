@@ -17,8 +17,12 @@ with open("amz.csv", "r") as infile, open("body.html", "w") as outfile:
     # Iterate over each row in the csv using reader object
     for row in csv_reader:
         # row variable is a list that represents a row in csv
-        url = row[4]+'?tag=udeals0d-20&linkCode=ogi&th=1'
-        text = str1+url+str2+row[5]+str3+url+str4+row[1]+str5+row[2]+str6+row[7]+str7
-        outfile.write(text)
+        # only show those has discount
+        if (float(row[3]) != 0):
+            url = row[4] + '?tag=udeals0d-20&linkCode=ogi&th=1'
+            #print(row[2], row[3])
+            price = '<span style="color:red;">' + row[2] + "</span>  (was $<strike>" + row[3] + "</strike>)"
+            text = str1 + url + str2 + row[5] + str3 + url + str4 + row[1] + str5 + price + str6 + row[7] + str7
+            outfile.write(text)
 infile.close()
 outfile.close()
