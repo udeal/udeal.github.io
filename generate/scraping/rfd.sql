@@ -1,4 +1,0 @@
-CREATE TABLE rfd(
-	topicurl VARCHAR NOT NULL PRIMARY KEY,
-	title VARCHAR NOT NULL,
-    produrl VARCHAR NOT NULL);

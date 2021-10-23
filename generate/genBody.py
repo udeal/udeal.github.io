@@ -10,7 +10,7 @@ str7=')</span> </p>   <ul class="list-inline">    <li class="mr-none" title="" d
 
 text=''
 url_list=[]
-with open("scraping/amz.csv", "r") as infile, open("body.html", "w") as outfile:
+with open("amz.csv", "r") as infile, open("body.html", "w") as outfile:
     # pass the file object to reader() to get the reader object
     csv_reader = reader(infile)
     next(csv_reader, None)  # skip the headers
