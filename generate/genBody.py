@@ -6,7 +6,7 @@ str3='" style="max-width: 100px; max-height: 100px"></a></td><td width="15"></td
 str4='" target="_blank">'
 str5='</a></h4>                              <p><span style="font-size:20px;">Price: &nbsp;'
 str6='</span><span style="font-size:12px;">&nbsp;&nbsp;&nbsp;(as of '
-str7=')</span> </p>   <ul class="list-inline">    <li class="mr-none" title="" data-toggle="tooltip" data-original-title="Source"> <a rel="nofollow noopener" href="www.amazon.com" target="_blank">  <i class="fa fa-code"></i> <span style="font-size:10px;">From Amazon.com</span> </a> </li>  </ul>  </td>  <td width="10"></td> </tr> </tbody>  </table> </div>'
+str7=')</span> </p>   <ul class="list-inline">    <li class="mr-none" title="" data-toggle="tooltip" data-original-title="Source"> <a rel="nofollow noopener" href="www.amazon.com" target="_blank">  <span style="font-size:10px;">From Amazon.com</span> </a> </li>  </ul>  </td>  <td width="10"></td> </tr> </tbody>  </table> </div>'
 
 text=''
 url_list=[]
